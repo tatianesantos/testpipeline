@@ -35,10 +35,7 @@ pipeline {
                                         echo "Running the unit test 2..."
                                 }
 
-				steps {
-					echo 'Running the integration test..'
-				}
-                               
+                              
 			}  }
         }
     }
