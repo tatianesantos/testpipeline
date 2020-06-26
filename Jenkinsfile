@@ -31,11 +31,10 @@ pipeline {
                                 }
                         }
                         stage('Integration test') {
-                        agent {
-                                steps{
+                               steps{
                                         echo "Running the unit test 2..."
                                 }
-			}
+
 				steps {
 					echo 'Running the integration test..'
 				}
